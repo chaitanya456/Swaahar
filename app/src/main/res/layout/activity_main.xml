@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:fontFamily="sans-serif-black"
+        android:textSize="65dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/username_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="275dp"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:onClick="submitClick"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/submit_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="575dp"
+        android:text="Reset"
+        app:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/submit_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="575dp"
+        android:onClick="registerClick"
+        android:text="Register"
+        app:backgroundTint="#00BCD4" />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEE"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/register_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTER" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Firstname" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Lastname" />
+
+    <RadioButton
+        android:id="@+id/male_btn"
+        android:layout_marginTop="220dp"
+        android:layout_alignLeft="@id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Male" />
+    <RadioButton
+        android:id="@+id/female_btn"
+        android:layout_marginTop="220dp"
+        android:textSize="20dp"
+        android:layout_alignRight="@id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female" />
+    <EditText
+        android:id="@+id/height_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Height(in Cms)" />
+    <EditText
+        android:id="@+id/weight_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Weight(in Kgs)" />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Age" />
+
+    <EditText
+        android:id="@+id/password1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/password2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+
+        android:onClick="subm_click"
+        android:text="Submit"
+        app:backgroundTint="#2196F3" />
+
+
+</RelativeLayout>

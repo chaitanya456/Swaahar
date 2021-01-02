@@ -36,23 +36,31 @@
         android:layout_marginTop="160dp"
         android:inputType="textPersonName"
         android:hint="Enter Lastname" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:orientation="horizontal">
 
-    <RadioButton
-        android:id="@+id/male_btn"
-        android:layout_marginTop="220dp"
-        android:layout_alignLeft="@id/last_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Male" />
-    <RadioButton
-        android:id="@+id/female_btn"
-        android:layout_marginTop="220dp"
-        android:textSize="20dp"
-        android:layout_alignRight="@id/last_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Female" />
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Male"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Female"
+            android:checked="false"
+            android:textSize="20dp" />
+    </RadioGroup>
+
     <EditText
         android:id="@+id/height_text"
         android:layout_width="wrap_content"
@@ -105,11 +113,11 @@
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600dp"
-
+        android:layout_marginTop="580dp"
         android:onClick="subm_click"
         android:text="Submit"
         app:backgroundTint="#2196F3" />
+
 
 
 </RelativeLayout>

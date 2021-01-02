@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "570885805374",
+    "project_id": "swaahar-bc1c8",
+    "storage_bucket": "swaahar-bc1c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570885805374:android:675c4b5838dce595cf086f",
+        "android_client_info": {
+          "package_name": "com.example.swaahar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570885805374-rjkvs73m319f2hpi194ttli92co5svho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GcsyqRjsBHa3lZ-D_ydkP7oht6_mVyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570885805374-rjkvs73m319f2hpi194ttli92co5svho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
